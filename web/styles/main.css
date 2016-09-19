@@ -1,64 +1,73 @@
+/*<!-- Copyright (c) 2016 Chris Gerencser-->*/
 *{
     font-family: Calibri;
 }
 h1.welcome:first-letter{
-    font-size: 3em;
+  font-size: 2em;
 }
 img.pumpkin{
-    padding-top: 1em;
-    float: left;
+  padding-top: 1em;
+  float: left;
+  padding-left: 1em;
 }
 h1.title{
-    /*color: orange;
-    font-style: italic;
-    text-shadow:2px 2px #000000;
-    */
+  /*color: orange;
+  font-style: italic;
+  text-shadow:2px 2px #000000;
+  */
 }
 header{
-    text-indent: 1em;
-    padding-top: 1em;
-    background-color: orange;
-    background: linear-gradient(225deg,black, orange 25%, white);
-    border-bottom: 2px black solid;
+  text-indent: 1em;
+  padding-top: 1em;
+  background-color: orange;
+  background: linear-gradient(225deg,black, orange 25%, white);
+  border-bottom: 2px black solid;
 }
 a{
-    color:orange;
-    font-weight: bold;
+  color:orange;
+  font-weight: bold;
 }
 a:hover{
-    color:green;
+  color:green;
 }
 li{
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 footer{
-    text-align: center;
-    font-size: small;
-    border-top: 2px black solid;
-    background-color: orange;
-    background: linear-gradient(-225deg,black, orange 25%, white);
-    padding-bottom: 1em;
+  text-align: center;
+  font-size: small;
+  border-top: 2px black solid;
+  background-color: orange;
+  background: linear-gradient(225deg,white, orange 75%, black);
+  padding-bottom: 1em;
+  padding-top: 1em;
 
 }
 body{
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background: white;
-    border-bottom: black;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-    border-top: black;
-    border-top-style: solid;
-    border-top-width: 0px;
-    border-left: black;
-    border-left-width: 2px;
-    border-left-style: solid;
-    border-right: black;
-    border-right-style: solid;
-    border-right-width: 2px;
-    box-shadow: 10px 10px 25px #000000;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-bottom: black;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-top: black;
+  border-top-style: solid;
+  border-top-width: 0px;
+  border-left: black;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right: black;
+  border-right-style: solid;
+  border-right-width: 2px;
+  box-shadow: 10px 10px 25px #000000;
 }
 html{
-    background-image: url(../images/bats.gif);
+  background-image: url(../images/bats.gif);
+}
+ul{
+  float: left;
+}
+div{
+  margin-left: 160px;
 }
