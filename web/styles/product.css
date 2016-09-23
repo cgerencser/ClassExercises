@@ -25,7 +25,6 @@ header{
 }
 a{
   color:orange;
-  font-weight: bold;
 }
 a:hover{
   color:green;
@@ -75,6 +74,7 @@ html{
 }
 #body{
   margin-left: 160px;
+  padding-bottom: 11.4em;
 }
 #topList{
     list-style-type: inline;
@@ -97,9 +97,6 @@ html{
 #topList li a:hover{
     background: gray;
 }
-#topList #home{
-    color: orange;
-}
 #sideList li {
     background: orange;
     border-bottom: black;
@@ -121,4 +118,33 @@ html{
 #sideList li a{
     color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+#cat{
+    float: left;
+    padding-right: 1em;
+}
+#rSide{
+    width: 180px;
+    float: right;
+    background-color: #F5DEB3;
+}
+#rSide ul{
+    list-style-type: none;
+    padding-left: 1em;
+    
+}
+#rSide ul a{
+    color: black;
+}
+#rSide ul a:hover{
+    color: green;
+}
+#rSide img{
+    height: 3.5em;
+    width: auto;
+}
+#rSide p{
+    padding-left: .6em;
+    
 }
