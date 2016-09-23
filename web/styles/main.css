@@ -2,20 +2,24 @@
 *{
     font-family: Calibri;
 }
+
 h1.welcome:first-letter{
   font-size: 2em;
 }
+
 img.pumpkin{
   padding-top: 1em;
   float: left;
   padding-left: 1em;
 }
+
 h1.title{
   /*color: orange;
   font-style: italic;
   text-shadow:2px 2px #000000;
   */
 }
+
 header{
   text-indent: 1em;
   padding-top: 1em;
@@ -23,16 +27,20 @@ header{
   background: linear-gradient(225deg,black, orange 25%, white);
   border-bottom: 2px black solid;
 }
+
 a{
   color:orange;
   font-weight: bold;
 }
+
 a:hover{
   color:green;
 }
+
 #sideList li{
   margin: 0 0 10px 0;
 }
+
 footer{
   text-align: center;
   font-size: small;
@@ -41,8 +49,8 @@ footer{
   background: linear-gradient(225deg,white, orange 75%, black);
   padding-bottom: 1em;
   padding-top: 1em;
-
 }
+
 body{
   width: 800px;
   margin-left: auto;
@@ -62,20 +70,25 @@ body{
   border-right-width: 2px;
   box-shadow: 10px 10px 25px #000000;
 }
+
 html{
   background-image: url(../images/bats.gif);
 }
+
 #sideList ul{
   float: left;
   list-style-type: none;
   padding-left: .5em;
 }
+
 #topList ul{
     list-style-type: none;
 }
+
 #body{
   margin-left: 160px;
 }
+
 #topList{
     list-style-type: inline;
     background-color: black;
@@ -85,21 +98,26 @@ html{
     text-decoration: none;
     
 }
+
 #topList li {
     float: left;
 }
+
 #topList li a {
     text-decoration: none;
     padding: 2em;
     color: white;
     font-weight: normal;
 }
+
 #topList li a:hover{
     background: gray;
 }
+
 #topList #home{
     color: orange;
 }
+
 #sideList li {
     background: orange;
     border-bottom: black;
@@ -118,6 +136,7 @@ html{
     padding-top: .15em;
     padding-bottom: .15em;
 }
+
 #sideList li a{
     color: black;
     text-decoration: none;
