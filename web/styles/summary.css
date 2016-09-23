@@ -121,6 +121,7 @@ html{
 #sideList li a{
     color: black;
     text-decoration: none;
+    padding-left: .5em;
 }
 #body h3{
     float: top;
@@ -138,7 +139,11 @@ html{
     color: black;
     font-weight: normal;
 }
-#price{
+td:last-child{
     background-color: #F5DEB3;
     text-align: right;
+    
+}
+table{
+    border-collapse: collapse;
 }

@@ -121,4 +121,5 @@ html{
 #sideList li a{
     color: black;
     text-decoration: none;
+    padding-left: .5em;
 }
