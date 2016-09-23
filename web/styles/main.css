@@ -30,7 +30,7 @@ a{
 a:hover{
   color:green;
 }
-li{
+#sideList li{
   margin: 0 0 10px 0;
 }
 footer{
@@ -65,9 +65,59 @@ body{
 html{
   background-image: url(../images/bats.gif);
 }
-ul{
+#sideList ul{
   float: left;
+  list-style-type: none;
+  padding-left: .5em;
 }
-div{
+#topList ul{
+    list-style-type: none;
+}
+#body{
   margin-left: 160px;
+}
+#topList{
+    list-style-type: inline;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+#topList li {
+    float: left;
+}
+#topList li a {
+    text-decoration: none;
+    padding: 2em;
+    color: white;
+}
+#topList li a:hover{
+    background: gray;
+}
+#topList #home{
+    color: orange;
+}
+#sideList li {
+    background: orange;
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-left: black;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right: black;
+    border-right-style: solid;
+    border-right-width: 2px;
+    padding-right: 2em;
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+#sideList li a{
+    color: black;
+    text-decoration: none;
 }
