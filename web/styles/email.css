@@ -1,0 +1,173 @@
+/*<!-- Copyright (c) 2016 Chris Gerencser-->*/
+*{
+    font-family: Calibri;
+}
+
+h1.welcome:first-letter{
+  font-size: 2em;
+}
+
+img.pumpkin{
+  padding-top: 1em;
+  float: left;
+  padding-left: 1em;
+}
+
+h1.title{
+  /*color: orange;
+  font-style: italic;
+  text-shadow:2px 2px #000000;
+  */
+}
+
+header{
+  text-indent: 1em;
+  padding-top: 1em;
+  background-color: orange;
+  background: linear-gradient(225deg,black, orange 25%, white);
+  border-bottom: 2px black solid;
+}
+
+a{
+  color:orange;
+  font-weight: bold;
+}
+
+a:hover{
+  color:green;
+}
+
+#sideList li{
+  margin: 0 0 10px 0;
+}
+
+footer{
+  text-align: center;
+  font-size: small;
+  border-top: 2px black solid;
+  background-color: orange;
+  background: linear-gradient(225deg,white, orange 75%, black);
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+body{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-bottom: black;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-top: black;
+  border-top-style: solid;
+  border-top-width: 0px;
+  border-left: black;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right: black;
+  border-right-style: solid;
+  border-right-width: 2px;
+  box-shadow: 10px 10px 25px #000000;
+}
+
+html{
+  background-image: url(../images/bats.gif);
+}
+
+#sideList ul{
+  float: left;
+  list-style-type: none;
+  padding-left: .5em;
+}
+
+#topList ul{
+    list-style-type: none;
+}
+
+#body{
+  margin-left: 160px;
+}
+
+#topList{
+    list-style-type: inline;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+
+#topList li {
+    float: left;
+}
+
+#topList li a {
+    text-decoration: none;
+    padding: 2em;
+    color: white;
+    font-weight: normal;
+}
+
+#topList li a:hover{
+    background: gray;
+}
+
+#topList #joinEmail{
+    color: orange;
+}
+
+#sideList li {
+    background: orange;
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-left: black;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right: black;
+    border-right-style: solid;
+    border-right-width: 2px;
+    padding-right: 2em;
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+
+#sideList li a{
+    color: black;
+    text-decoration: none;
+    padding-left: .5em;
+}
+label{
+    text-align: right;
+    padding: 1em;
+}
+#labelEmail{
+    padding-left: 2.89em;
+}
+#zipC {
+    padding-left: 1.5em;
+}
+input[name="subscribe"] { 
+  background-color: orange;
+  margin-left: 7em;
+  margin-bottom: 1em;
+  width: 6em;
+}
+p{
+    margin: .2em;
+}
+#lNamee{
+    padding-left: 1.15em;
+}
+input{
+    width: 22em;
+}
+#body h2{
+    padding-left: 1em;
+    font-size: 180%;
+}
