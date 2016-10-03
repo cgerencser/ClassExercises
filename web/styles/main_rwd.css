@@ -11,6 +11,17 @@ img.pumpkin{
   padding-top: 1em;
   float: left;
   padding-left: 1em;
+  max-width: 85px;
+  height: auto;
+  width: 100%;
+  min-width: 40px;
+}
+
+img.cat{
+    max-width: 154px;
+    width: 100%;
+    min-width: 40px;
+    height: auto;
 }
 
 h1.title{
@@ -52,7 +63,8 @@ footer{
 }
 
 body{
-  width: 800px;
+  max-width:960px;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   background: white;
@@ -87,7 +99,6 @@ html{
 
 #body{
   margin-left: 160px;
-  margin-bottom: 5em;
 }
 
 #topList{
@@ -97,6 +108,7 @@ html{
     padding: 0;
     overflow: hidden;
     text-decoration: none;
+    clear: both;
     
 }
 
@@ -116,7 +128,7 @@ html{
 }
 
 #topList #home{
-    
+    color: orange;
 }
 
 #sideList li {
@@ -134,8 +146,9 @@ html{
     border-right-style: solid;
     border-right-width: 2px;
     padding-right: 2em;
-    padding-top: .15em;
-    padding-bottom: .15em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin-bottom: .5em;
 }
 
 #sideList li a{
@@ -143,3 +156,38 @@ html{
     text-decoration: none;
     padding-left: .5em;
 }
+
+@media screen and (max-width: 800px) {
+    *{
+    font-size: 90%;
+    }
+    
+    html{
+    background-image: none;
+    }
+    
+    body{
+    box-shadow:none;
+    }
+    img.pumpkin{
+        padding-top: 0em;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #sidelist{
+        position: relative;
+    }
+    
+    #sideList ul{
+        position: absolute;
+        bottom: 0;
+        top: 55%;
+        left: 43%;
+    }
+    
+    #body{
+        margin-left: 0px;
+    }
+}
+
