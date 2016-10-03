@@ -129,8 +129,9 @@ html{
     border-right-style: solid;
     border-right-width: 2px;
     padding-right: 2em;
-    padding-top: .15em;
-    padding-bottom: .15em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin-bottom: .5em;
 }
 
 #sideList li a{

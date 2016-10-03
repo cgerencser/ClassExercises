@@ -27,13 +27,14 @@ header{
   background: linear-gradient(225deg,black, orange 25%, white);
   border-bottom: 2px black solid;
 }
-a{
-    color: black;
-}
 
-#sideList a{
+a{
   color:orange;
   font-weight: bold;
+}
+
+a:hover{
+  color:green;
 }
 
 #sideList li{
@@ -48,7 +49,6 @@ footer{
   background: linear-gradient(225deg,white, orange 75%, black);
   padding-bottom: 1em;
   padding-top: 1em;
-
 }
 
 body{
@@ -87,6 +87,7 @@ html{
 
 #body{
   margin-left: 160px;
+  margin-bottom: 5em;
 }
 
 #topList{
@@ -114,7 +115,7 @@ html{
     background: gray;
 }
 
-#topList #productL{
+#topList #home{
     color: orange;
 }
 
@@ -133,43 +134,12 @@ html{
     border-right-style: solid;
     border-right-width: 2px;
     padding-right: 2em;
-    padding-top: .3em;
-    padding-bottom: .3em;
-    margin-bottom: .5em;
+    padding-top: .15em;
+    padding-bottom: .15em;
 }
 
 #sideList li a{
     color: black;
     text-decoration: none;
     padding-left: .5em;
-}
-
-#body h3{
-    float: top;
-    padding-left: 9em; 
-    margin:0;
-}
-
-#tPrice{
-    text-align: right;
-}
-
-#body th:not(#tPrice) {
-    text-align: left;
-    vertical-align: top;
-}
-
-#body td {
-    color: black;
-    font-weight: normal;
-}
-
-td:last-child{
-    background-color: #F5DEB3;
-    text-align: right;
-    
-}
-
-table{
-    border-collapse: collapse;
 }
