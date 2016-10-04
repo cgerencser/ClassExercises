@@ -3,6 +3,10 @@
     font-family: Calibri;
 }
 
+#hamburger{
+    display: none;
+}
+
 h1.welcome:first-letter{
   font-size: 2em;
 }
@@ -48,7 +52,11 @@ a:hover{
   color:green;
 }
 
-#sideList li{
+#sideList1 li{
+  margin: 0 0 10px 0;
+}
+
+#sideList2 li{
   margin: 0 0 10px 0;
 }
 
@@ -87,10 +95,17 @@ html{
   background-image: url(../images/bats.gif);
 }
 
-#sideList ul{
+#sideList1 ul{
   float: left;
   list-style-type: none;
   padding-left: .5em;
+}
+
+#sideList2 ul{
+  float: left;
+  list-style-type: none;
+  padding-left: .5em;
+  display: none;
 }
 
 #topList ul{
@@ -131,7 +146,7 @@ html{
     color: orange;
 }
 
-#sideList li {
+#sideList1 li {
     background: orange;
     border-bottom: black;
     border-bottom-width: 2px;
@@ -151,7 +166,33 @@ html{
     margin-bottom: .5em;
 }
 
-#sideList li a{
+#sideList2 li {
+    background: orange;
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-left: black;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right: black;
+    border-right-style: solid;
+    border-right-width: 2px;
+    padding-right: 2em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin-bottom: .5em;
+}
+
+#sideList1 li a{
+    color: black;
+    text-decoration: none;
+    padding-left: .5em;
+}
+
+#sideList2 li a{
     color: black;
     text-decoration: none;
     padding-left: .5em;
@@ -175,19 +216,36 @@ html{
 }
 
 @media screen and (max-width: 767px){
-    #sidelist{
-        position: relative;
+  #body{
+    margin-left: 0px;
+  }
+  
+  main{
+    padding-bottom: 12em;
+    padding-left: 2em;
+  }
+  
+  #sideList1 ul {
+      display: none;
+  }
+  
+  #sideList2 ul {
+      display: block;
+      padding-left: 40%;
+  }
+  
+   #hamburger {
+        display: block;
+        float: right;
+        background-color: black;
     }
     
-    #sideList ul{
-        position: absolute;
-        bottom: 0;
-        top: 55%;
-        left: 43%;
+    #topList a{
+        color: white;
+        font-size: 140%;
     }
     
-    #body{
-        margin-left: 0px;
+    #topList ul{
+        display: none;
     }
 }
-
