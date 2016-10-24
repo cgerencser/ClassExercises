@@ -39,14 +39,15 @@
   <main>
     <div id="body">
       <h2><strong>Please enter the following information</strong></h2>
-      <form action="subscribe.html" method="get">
+      <form action="goelon" method="post">
+          <input type="hidden" name="action" value="add">
           <p>
             <label>First name:</label>
-            <input name="fname" placeholder="First Name" type="text" required />
+            <input name="firstName" placeholder="First Name" type="text" required />
           </p>
           <p>
               <label id="lNamee">Last name:</label>
-              <input name="lname" placeholder="Last Name" type="text" required />
+              <input name="lastName" placeholder="Last Name" type="text" required />
           </p>
           <p>
             <label id="labelEmail">Email:</label>
@@ -54,7 +55,7 @@
           </p>
           <p>
               <label id="zipC">Zip Code:</label>
-              <input name="zipCo" placeholder= "Zip Code" type="text" required pattern="[0-9]{5}" title="XXXXX"/>
+              <input name="zipCode" placeholder= "Zip Code" type="text" required pattern="[0-9]{5}" title="XXXXX"/>
           </p>
           <input type="submit" value="Subscribe" name="subscribe" />
       </form>

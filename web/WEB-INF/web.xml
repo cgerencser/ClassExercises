@@ -4,6 +4,14 @@
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	 version="3.1">
+    <servlet>
+        <servlet-name>HalloweenServlet</servlet-name>
+        <servlet-class>edu.elon.events.HalloweenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HalloweenServlet</servlet-name>
+        <url-pattern>/goelon</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
